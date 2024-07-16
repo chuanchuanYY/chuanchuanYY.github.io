@@ -1,8 +1,8 @@
 name: publish-static-site
 on: push
-  jobs: 
-    publish: 
-      runs-on: ubuntu-latest
-      steps: 
-        - uses: actions/checkout@v4
-        run: ls
+jobs: 
+  publish: 
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v4
+      - run: ls

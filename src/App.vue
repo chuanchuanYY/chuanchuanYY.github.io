@@ -43,7 +43,6 @@ async function fetchFileContent() {
     >
     
       <h1>github action workflow publish success!</h1>
-      <h2>黄楚盈！！！👋</h2>
       <span>Hello chuan My Github</span>
     </el-dialog>
       <nav>

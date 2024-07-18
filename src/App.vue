@@ -34,14 +34,13 @@ async function fetchFileContent() {
     <div class="wrapper">
       <pre id="fileContent"></pre>
       <HelloWorld msg="You did it! CHUAN" />
-      <el-button type="primary" v-on:click="onClick">ShowDialog</el-button>
+      <el-button type="primary" v-on:click="onClick">test</el-button>
 
       <el-dialog
       v-model="dialogVisible"
       title="Tips"
       width="500"
     >
-    
       <h1>github action workflow publish success!</h1>
       <span>Hello chuan My Github</span>
     </el-dialog>

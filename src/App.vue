@@ -41,9 +41,10 @@ async function fetchFileContent() {
       title="Tips"
       width="500"
     >
+    
       <h1>github action workflow publish success!</h1>
+      <h2>黄楚盈！！！👋</h2>
       <span>Hello chuan My Github</span>
-      
     </el-dialog>
       <nav>
         <RouterLink to="/">Home</RouterLink>

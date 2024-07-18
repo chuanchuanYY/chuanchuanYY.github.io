@@ -14,6 +14,8 @@ jobs:
       - run: npm run build
       - run: ls ./dist
       - run: git remote -v
+      - name: Copy CNAME
+      - run: cp CNAME ./dist/CNAME
       - name: deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
